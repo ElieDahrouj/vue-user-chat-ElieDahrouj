@@ -1,0 +1,51 @@
+h1{
+    color:#efeafe;
+    text-align: center;
+    padding: 2px;
+}
+textarea:focus{
+    outline:none;
+}
+.scrollMsg{
+    height: 90vh;
+    overflow-y: scroll;
+}
+.scrollUser::-webkit-scrollbar {
+    width: 5px;
+}
+/* Track */
+.scrollUser::-webkit-scrollbar-track {
+    background: rgb(55, 63, 128);
+    border-radius: 10px;
+}
+
+/* Handle */
+.scrollUser::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #625f98;
+}
+/* Handle on hover */
+.scrollUser::-webkit-scrollbar-thumb:hover {
+    background: #625f98;
+}
+.scrollMsg::-webkit-scrollbar {
+    width: 5px;
+}
+.scrollMsg::-webkit-scrollbar-track {
+    background: linear-gradient(RGB(239, 234, 254),RGB(200, 180, 231));
+    border-radius: 10px;
+}
+.scrollMsg::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #625f98;
+}
+.scrollMsg::-webkit-scrollbar-thumb:hover {
+    background: #625f98;
+}
+
+.fade-enter-active, .fade-leave-active {
+    transition: opacity .5s;
+}
+.fade-enter, .fade-leave-to {
+    opacity: 0;
+}
